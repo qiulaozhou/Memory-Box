@@ -1,16 +1,23 @@
+# macOS
+.DS_Store
+
 # Java & Spring Boot
 target/
 *.class
 .idea/
 *.iml
+.mvn/
+mvnw
+mvnw.cmd
 
-# Node.js (React / RN)
+# Node.js (React / React Native)
 node_modules/
 dist/
 .expo/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+web-build/
 
-# System
-.DS_Store
+# User Data
+*.log
